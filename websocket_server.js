@@ -191,4 +191,4 @@ udpServer.on('message', function(message, remote) {
     }
 });
 
-udpServer.bind(parseInt(udp_port) + 1, udp_ip);
+udpServer.bind(parseInt(udp_port) + 1, '0.0.0.0');
